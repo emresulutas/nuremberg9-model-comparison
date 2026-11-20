@@ -1,0 +1,21 @@
+
+[swin_tiny] 2026-11-18T15:31:32+01:00
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Epoch 1: train loss 0.3547, validation macro-F1 0.8593
+Epoch 2: train loss 0.1117, validation macro-F1 0.8584
+Epoch 3: train loss 0.0694, validation macro-F1 0.8482
+Epoch 4: train loss 0.0665, validation macro-F1 0.8696
+Epoch 5: train loss 0.0462, validation macro-F1 0.8567
+Epoch 6: train loss 0.0439, validation macro-F1 0.8854
+Epoch 7: train loss 0.0399, validation macro-F1 0.9076
+Epoch 8: train loss 0.0313, validation macro-F1 0.8906
+Epoch 9: train loss 0.0292, validation macro-F1 0.7555
+Epoch 10: train loss 0.0336, validation macro-F1 0.8934
+Epoch 11: train loss 0.0259, validation macro-F1 0.8751
+Epoch 12: train loss 0.0100, validation macro-F1 0.9022
+Epoch 13: train loss 0.0087, validation macro-F1 0.8876
+Epoch 14: train loss 0.0067, validation macro-F1 0.9053
+Epoch 15: train loss 0.0095, validation macro-F1 0.9028
+Epoch 16: train loss 0.0032, validation macro-F1 0.9036
+Epoch 17: train loss 0.0026, validation macro-F1 0.9064
+Best validation macro-F1 0.9076 at epoch 7. Results in nuremberg-9/experiments/05_model_comparison/results/whole_line/swin_tiny/fit

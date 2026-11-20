@@ -1,0 +1,37 @@
+# data stays on the server
+datasets/nuremberg
+datasets/nuremberg/
+*.zip
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# heavy run artifacts (checkpoints, cached features, logs)
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.safetensors
+cache/
+features/
+experiments/**/slurm_logs/*
+!experiments/**/slurm_logs/.gitkeep
+logs/
+logs_*.out
+wandb/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# secrets
+.env
+*.pem
+id_rsa*

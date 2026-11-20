@@ -1,0 +1,20 @@
+{
+  "scribes": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "line_counts": {
+    "train": 35257,
+    "val": 7622,
+    "test": 7636
+  },
+  "split_json": "nuremberg-9/docs/split_v2_9scribes.json",
+  "split_sha256": "aa82ddeed92a250e8db7f3ffbd6fe34babdebef949c0931659803af72be79691"
+}

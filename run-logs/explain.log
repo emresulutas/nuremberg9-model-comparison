@@ -1,0 +1,10 @@
+
+[explain] 2026-11-19T14:40:41+01:00
+Reusing CHURRO line explanations at nuremberg-9/experiments/05_model_comparison/results/whole_line/churro/explanations
+Explaining 27 test lines with ResNet18
+Wrote 27 line explanations to nuremberg-9/experiments/05_model_comparison/results/whole_line/resnet18/explanations
+Explaining 27 test lines with ResNet50
+Wrote 27 line explanations to nuremberg-9/experiments/05_model_comparison/results/whole_line/resnet50/explanations
+Explaining 27 test lines with Swin-Tiny
+Wrote 27 line explanations to nuremberg-9/experiments/05_model_comparison/results/whole_line/swin_tiny/explanations
+Wrote 27 line comparisons to nuremberg-9/experiments/05_model_comparison/results/whole_line/comparison/explanations

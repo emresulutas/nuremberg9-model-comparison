@@ -1,0 +1,37 @@
+
+[resnet18] 2026-11-19T08:15:41+01:00
+Epoch 1: train loss 0.5037, validation macro-F1 0.7393
+Epoch 2: train loss 0.1263, validation macro-F1 0.7968
+Epoch 3: train loss 0.0770, validation macro-F1 0.7793
+Epoch 4: train loss 0.0581, validation macro-F1 0.8388
+Epoch 5: train loss 0.0484, validation macro-F1 0.8413
+Epoch 6: train loss 0.0371, validation macro-F1 0.7899
+Epoch 7: train loss 0.0303, validation macro-F1 0.8711
+Epoch 8: train loss 0.0220, validation macro-F1 0.8394
+Epoch 9: train loss 0.0241, validation macro-F1 0.8419
+Epoch 10: train loss 0.0164, validation macro-F1 0.8476
+Epoch 11: train loss 0.0223, validation macro-F1 0.7775
+Epoch 12: train loss 0.0044, validation macro-F1 0.8387
+Epoch 13: train loss 0.0034, validation macro-F1 0.8802
+Epoch 14: train loss 0.0028, validation macro-F1 0.8605
+Epoch 15: train loss 0.0055, validation macro-F1 0.8546
+Epoch 16: train loss 0.0029, validation macro-F1 0.8717
+Epoch 17: train loss 0.0039, validation macro-F1 0.8621
+Epoch 18: train loss 0.0016, validation macro-F1 0.8621
+Epoch 19: train loss 0.0008, validation macro-F1 0.8724
+Epoch 20: train loss 0.0008, validation macro-F1 0.8714
+Epoch 21: train loss 0.0005, validation macro-F1 0.8821
+Epoch 22: train loss 0.0011, validation macro-F1 0.8866
+Epoch 23: train loss 0.0002, validation macro-F1 0.8988
+Epoch 24: train loss 0.0001, validation macro-F1 0.8991
+Epoch 25: train loss 0.0001, validation macro-F1 0.8764
+Epoch 26: train loss 0.0011, validation macro-F1 0.8644
+Epoch 27: train loss 0.0012, validation macro-F1 0.8557
+Epoch 28: train loss 0.0002, validation macro-F1 0.8751
+Epoch 29: train loss 0.0002, validation macro-F1 0.8856
+Epoch 30: train loss 0.0002, validation macro-F1 0.8877
+Epoch 31: train loss 0.0001, validation macro-F1 0.8701
+Epoch 32: train loss 0.0001, validation macro-F1 0.8877
+Epoch 33: train loss 0.0001, validation macro-F1 0.8903
+Epoch 34: train loss 0.0001, validation macro-F1 0.8918
+Best validation macro-F1 0.8991 at epoch 24. Results in nuremberg-9/experiments/05_model_comparison/results/whole_line/resnet18/fit

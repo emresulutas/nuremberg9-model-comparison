@@ -1,0 +1,14 @@
+torch
+torchvision
+timm>=1.0.31,<2          # Swin-Tiny with rectangular grids and window attention
+transformers>=4.49        # Qwen2.5-VL (CHURRO) vision tower
+accelerate
+pillow
+numpy
+scikit-learn
+pyyaml
+matplotlib
+pandas
+defusedxml
+seaborn
+albumentations>=2.0,<3   # augmentation of rare scribes (src/data/augment.py)

@@ -1,0 +1,21 @@
+train: 35257 lines
+val: 7622 lines
+test: 7636 lines
+train lines per class:  [12600, 1400, 1062, 6591, 1273, 12140, 96, 64, 31]
+expected draws / epoch: [9147, 3049, 2656, 6616, 2907, 8978, 798, 652, 454]
+class weights:          [0.93, 0.98, 1.0, 0.93, 0.98, 0.93, 1.69, 1.94, 2.55]
+
+blk16: best epoch 35   test accuracy 0.958   balanced 0.910   macro-F1 0.887
+test recall per scribe (n test lines):
+  S1   0.949  (n=2711)
+  S2   0.905  (n=306)
+  S6   0.864  (n=235)
+  S7   0.966  (n=1440)
+  S8   0.844  (n=289)
+  S9   0.992  (n=2602)
+  S10  0.812  (n=32)
+  S11  1.000  (n=14)   NOISY
+  S12  0.857  (n=7)   NOISY
+band shortcut baseline: val bAcc 0.235  test bAcc 0.214
+
+wrote results to nuremberg-9/experiments/01_balanced_probe/results/weighted_oversample

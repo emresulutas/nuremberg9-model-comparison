@@ -1,0 +1,70 @@
+{
+ "scribes": [
+  1,
+  2,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "summary": {
+  "blk16": {
+   "best_epoch": 35,
+   "val_balanced_accuracy": 0.8835406911576479,
+   "val_macro_f1": 0.8984683426632368,
+   "val_accuracy": 0.9640514300708476,
+   "test_balanced_accuracy": 0.9100005882209703,
+   "test_macro_f1": 0.8865935712262452,
+   "test_accuracy": 0.9579622839182819
+  }
+ },
+ "band_shortcut_baseline": {
+  "val": {
+   "line_accuracy": 0.5911,
+   "balanced_accuracy": 0.2353
+  },
+  "test": {
+   "line_accuracy": 0.5449,
+   "balanced_accuracy": 0.2136
+  },
+  "band_majority_scribe": {
+   "Band2": 1,
+   "Band3": 7,
+   "Band4": 9,
+   "Band5": 9
+  }
+ },
+ "dropped_nonfinite_lines": {
+  "train": 0,
+  "val": 0,
+  "test": 0
+ },
+ "run": {
+  "git_commit": "c2536880d1f6adc05037aaa1ab435d2b3c1d0e11",
+  "git_dirty": true,
+  "timestamp": "2026-11-02T10:40:14+00:00",
+  "config": {
+   "features": "features/churro_v1",
+   "extra_features": "features/churro_v2_new",
+   "split_json": "nuremberg-9/docs/split_v2_9scribes.json",
+   "out": "nuremberg-9/experiments/01_balanced_probe/results/weighted_oversample",
+   "layers": [
+    "blk16"
+   ],
+   "weights": "effective",
+   "beta": 0.999,
+   "oversample": "sqrt",
+   "epochs": 200,
+   "batch": 512,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "lr_patience": 3,
+   "stop_patience": 10,
+   "seed": 42,
+   "device": "cpu"
+  }
+ }
+}
