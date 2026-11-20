@@ -18,8 +18,7 @@ GRID = "#DCE4EB"
 
 
 def save(fig, out: Path) -> None:
-    for extension in ("png", "svg"):
-        fig.savefig(out.with_suffix(f".{extension}"), dpi=300, bbox_inches="tight", pad_inches=0.10)
+    fig.savefig(out.with_suffix(".png"), dpi=300, bbox_inches="tight", pad_inches=0.10)
     plt.close(fig)
 
 
@@ -113,7 +112,7 @@ def confusion_plot(report: dict, out: Path) -> None:
 def render_figures(report: dict, out: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
     with plt.rc_context({"font.family": "DejaVu Sans", "font.size": 9, "text.color": INK, "axes.labelcolor": INK,
-                         "xtick.color": INK, "ytick.color": INK, "svg.fonttype": "none", "svg.hashsalt": "nuremberg9"}):
+                         "xtick.color": INK, "ytick.color": INK}):
         score_table(report, f"Full test set  ·  {report['n_test_lines']:,} lines, {len(report['scribes'])} writers",
                     out / "test_scores.png")
         subset = report["unseen_pages"]

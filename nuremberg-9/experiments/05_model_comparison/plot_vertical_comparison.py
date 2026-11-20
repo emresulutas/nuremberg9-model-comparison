@@ -56,8 +56,7 @@ def panel_title(ax, title, detail):
 
 def save(fig, output, name):
     output.mkdir(parents=True, exist_ok=True)
-    for suffix in ("png", "svg"):
-        fig.savefig(output / f"{name}.{suffix}", dpi=300, facecolor=PAPER)
+    fig.savefig(output / f"{name}.png", dpi=300, facecolor=PAPER)
     plt.close(fig)
 
 
@@ -173,7 +172,7 @@ def main():
     parser.add_argument("--output-dir", type=Path, default=comparison)
     args = parser.parse_args()
     scores = json.loads(args.scores.read_text(encoding="utf-8"))
-    plt.rcParams.update({"font.family": "DejaVu Sans", "svg.fonttype": "none"})
+    plt.rcParams.update({"font.family": "DejaVu Sans"})
     final_summary(scores, args.output_dir)
     model_scores(scores, args.output_dir)
     difference(scores, args.output_dir)

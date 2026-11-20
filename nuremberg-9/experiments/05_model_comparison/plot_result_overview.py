@@ -22,7 +22,7 @@ grey="#68818b"
 light="#dbe7e7"
 background="#f1f6f5"
 plt.rcParams.update({"font.family":"DejaVu Sans","font.size":12,"text.color":navy,
-                     "axes.labelcolor":navy,"svg.fonttype":"none","savefig.facecolor":background})
+                     "axes.labelcolor":navy,"savefig.facecolor":background})
 
 def canvas(title,subtitle):
     fig, (left,right)=plt.subplots(1,2,figsize=(12.4,5.65),sharey=True,facecolor=background,
@@ -39,8 +39,7 @@ def canvas(title,subtitle):
     return fig,left,right
 
 def export(fig,stem):
-    for ext in ("png","svg"):
-        fig.savefig(metrics/f"{stem}.{ext}",dpi=300)
+    fig.savefig(metrics/f"{stem}.png",dpi=300)
     plt.close(fig)
 
 fig,left,right=canvas("Which model best identified the writer?",

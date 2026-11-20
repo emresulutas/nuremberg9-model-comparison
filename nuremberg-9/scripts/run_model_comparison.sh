@@ -205,9 +205,9 @@ for model in "${models[@]}"; do
     compare_args+=(--model "$model=$results/$model/fit/predictions.npz")
 done
 
-if ! complete_directory "$metrics" scores.json test_scores.png test_scores.svg \
-        test_scores_unseen_pages.png test_scores_unseen_pages.svg recall_per_scribe.png recall_per_scribe.svg \
-        confusion.png confusion.svg; then
+if ! complete_directory "$metrics" scores.json test_scores.png \
+        test_scores_unseen_pages.png recall_per_scribe.png \
+        confusion.png; then
     comparison_staging=$(mktemp -d "$comparison/.metrics.XXXXXX")
     run_stage compare env CUDA_VISIBLE_DEVICES= "$python_bin" "$exp/compare.py" "${compare_args[@]}" \
         --figures "$comparison_staging" --out "$comparison_staging/scores.json"

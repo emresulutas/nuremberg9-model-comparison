@@ -52,7 +52,7 @@ checkpoints, predictions and metrics, and `explanations/` for the model's own ga
 reference the saved whole-line run in `01_balanced_probe`.
 
 - `comparison/metrics/` holds the main and unseen-page score tables, per-writer recall, and the four-model confusion figure.
-  Each figure is available as an editable vector SVG and a 300 dpi PNG.
+  Each figure is available as a 300 dpi PNG.
 - `comparison/selected_lines.csv` records the shared test lines used by all four models.
 - `comparison/explanations/line_explanations.png` is the joint 300 dpi publication panel. The same folder contains all
   joint line galleries and raw maps. `catalog.json` records which lines were used in the publication panel.

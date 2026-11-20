@@ -8,7 +8,7 @@ Whole-line writer identification on Nuremberg Letterbooks with CHURRO, ResNet18,
 
 **ResNet18 led this run**, with 91.23% macro-F1 on the nine-writer test and a 2.58 percentage-point gain over CHURRO. It also led on the subset of pages absent from training and validation.
 
-[Macro-F1 overview (SVG)](reports/comparison/metrics/macro_f1_overview.svg) · [CHURRO-relative differences (PNG)](reports/comparison/metrics/difference_from_churro.png) · [CHURRO-relative differences (SVG)](reports/comparison/metrics/difference_from_churro.svg)
+[CHURRO-relative differences](reports/comparison/metrics/difference_from_churro.png)
 
 ## Scores and diagnostics
 
@@ -32,7 +32,7 @@ The unseen-page subset has 7,583 test lines and seven writers. S11 and S12 have 
 
 </details>
 
-[Full scores and sample counts](reports/comparison/metrics/scores.json) · [Full test table](reports/comparison/metrics/test_scores.svg) · [Unseen-page table](reports/comparison/metrics/test_scores_unseen_pages.svg) · [Per-writer recall](reports/comparison/metrics/recall_per_scribe.svg) · [Confusion matrices](reports/comparison/metrics/confusion.svg)
+[Full scores and sample counts](reports/comparison/metrics/scores.json) · [Full test table](reports/comparison/metrics/test_scores.png) · [Unseen-page table](reports/comparison/metrics/test_scores_unseen_pages.png) · [Per-writer recall](reports/comparison/metrics/recall_per_scribe.png) · [Confusion matrices](reports/comparison/metrics/confusion.png)
 
 ## Model outputs and explanation galleries
 
