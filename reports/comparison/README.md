@@ -1,8 +1,8 @@
 # Comparison figures
 
-![Final result table ranked by Macro-F1](00-final-sonuc.png)
+![Final ranking shown as vertical Macro-F1 bars](00-final-sonuc.png)
 
-[Download the final table as SVG](00-final-sonuc.svg)
+[Download the final bar chart as SVG](00-final-sonuc.svg)
 
 | Figure | PNG | SVG |
 |---|---|---|

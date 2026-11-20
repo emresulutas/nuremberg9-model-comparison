@@ -2,7 +2,7 @@
 
 Whole-line writer identification on Nuremberg Letterbooks with CHURRO, ResNet18, ResNet50 and Swin-Tiny. All four were evaluated on the same 7,636 test lines. The CHURRO visual encoder was frozen and only its classifier was trained. The three ImageNet-initialized baselines were fine-tuned on Nuremberg.
 
-![Final result table. ResNet18 leads with 91.23% Macro-F1.](reports/comparison/00-final-sonuc.png)
+![Final Macro-F1 bar chart. ResNet18 leads with 91.23%.](reports/comparison/00-final-sonuc.png)
 
 [All vertical figures](reports/comparison/) · [Original Macro-F1 overview](reports/comparison/metrics/macro_f1_overview.png)
 
