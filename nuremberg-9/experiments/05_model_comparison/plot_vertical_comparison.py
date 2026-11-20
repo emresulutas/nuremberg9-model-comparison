@@ -9,7 +9,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
-from matplotlib.patches import Patch  # noqa: E402
+from matplotlib.patches import Patch, Rectangle  # noqa: E402
 from matplotlib.ticker import PercentFormatter  # noqa: E402
 import numpy as np  # noqa: E402
 
@@ -59,6 +59,40 @@ def save(fig, output, name):
     for suffix in ("png", "svg"):
         fig.savefig(output / f"{name}.{suffix}", dpi=300, facecolor=PAPER)
     plt.close(fig)
+
+
+def final_summary(scores, output):
+    order = sorted(MODELS, key=lambda model: scores["models"][model]["macro_f1"], reverse=True)
+    names = dict(zip(MODELS, NAMES, strict=True))
+    winner = order[0]
+    fig = plt.figure(figsize=(9.5, 4.35), facecolor=PAPER)
+    fig.text(.075, .867, f"{names[winner]} leads Nuremberg-9", color=INK, fontsize=25, weight="bold")
+    fig.text(.076, .778, f"Full test set  ·  {scores['n_test_lines']:,} lines  ·  {len(scores['scribes'])} writers",
+             color=MUTED, fontsize=11)
+    ax = fig.add_axes((.075, .16, .85, .52))
+    ax.set(xlim=(0, 1), ylim=(0, 5))
+    ax.axis("off")
+    ax.add_patch(Rectangle((0, 0), 1, 5, color="white"))
+    ax.add_patch(Rectangle((0, 4), 1, 1, color="#e3eeef"))
+    ax.add_patch(Rectangle((0, 3), 1, 1, color="#cfe9e3"))
+    ax.add_patch(Rectangle((0, 3), .011, 1, color=COLORS[1]))
+    for pos, title, align in ((.042, "Model", "left"), (.65, "Macro-F1", "right"),
+                              (.956, "vs CHURRO (pp)", "right")):
+        ax.text(pos, 4.5, title, ha=align, va="center", color=INK, fontsize=11, weight="bold")
+    for index, model in enumerate(order):
+        y = 3.5 - index
+        score = scores["models"][model]["macro_f1"]
+        delta = scores["differences_from_churro_pp"].get(model)
+        gap = f"{delta['macro_f1']:+.2f}".replace("-", "−") if delta else "Reference"
+        weight = "bold" if index == 0 else "normal"
+        color = "#075e54" if index == 0 else INK
+        ax.text(.042, y, names[model], va="center", color=color, fontsize=13, weight=weight)
+        ax.text(.65, y, f"{score:.2%}", ha="right", va="center", color=color, fontsize=13, weight=weight)
+        ax.text(.956, y, gap, ha="right", va="center", color=color, fontsize=12, weight=weight)
+        if index < len(order) - 1:
+            ax.hlines(y - .5, 0, 1, color=GRID, lw=.85)
+    fig.text(.076, .063, "Ranked by Macro-F1  ·  pp = percentage points", color=MUTED, fontsize=9.5)
+    save(fig, output, "00-final-sonuc")
 
 
 def model_scores(scores, output):
@@ -149,6 +183,7 @@ def main():
     args = parser.parse_args()
     scores = json.loads(args.scores.read_text(encoding="utf-8"))
     plt.rcParams.update({"font.family": "DejaVu Sans", "svg.fonttype": "none"})
+    final_summary(scores, args.output_dir)
     model_scores(scores, args.output_dir)
     difference(scores, args.output_dir)
     writer_recall(scores, args.output_dir)
