@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nuremberg-9 Sonuçları</title>
+<style>
+body{font:16px/1.6 system-ui,sans-serif;color:#183142;background:#f4f7f8;margin:0}
+main{max-width:960px;margin:auto;padding:36px 24px}
+h1{font-size:clamp(28px,5vw,42px);margin:0}
+h2{font-size:21px;margin:0 0 6px}p{margin:6px 0 12px}
+section{background:#fff;border:1px solid #d7e1e5;border-radius:12px;padding:20px;margin:16px 0}
+a{color:#00635a;text-underline-offset:.2em}
+nav{display:flex;flex-wrap:wrap;gap:8px 20px}
+img{display:block;width:100%;height:auto;margin-top:14px}
+</style>
+</head>
+<body><main>
+<h1>Nuremberg-9 Sonuçları</h1>
+<p>Tarihî el yazısı satırlarından yazarı tanıma</p><p><a href="04-writer-lines/README.md">Dokuz yazarın örnek satırları</a></p>
+
+<section><h2>Modeller</h2>
+<p>Her modelin eğitim ayarı, test sonuçları, hata matrisi ve açıklama görselleri.</p>
+<nav aria-label="Model klasörleri">
+<a href="01-models/churro/README.md">CHURRO-3B</a>
+<a href="01-models/resnet18/README.md">ResNet18</a>
+<a href="01-models/resnet50/README.md">ResNet50</a>
+<a href="01-models/swin_tiny/README.md">Swin-Tiny</a>
+</nav>
+<nav aria-label="CHURRO deneyleri">
+<a href="01-models/churro/word-vs-line.png">Kelime ve satır</a>
+<a href="01-models/churro/error-overlap.png">Hata örtüşmesi</a>
+<a href="01-models/churro/augmentation.png">Veri artırma</a>
+</nav></section>
+
+<section><h2>Dört modelin karşılaştırması</h2>
+<p>Dört model aynı test satırlarında değerlendirildi. Ana grafik dokuz yazarlı tam testin Macro-F1 skorlarını gösteriyor.</p>
+<nav aria-label="Karşılaştırma sonuçları">
+<a href="02-model-comparison/README.md">Yöntem ve sonuçlar</a>
+<a href="02-model-comparison/scores.csv">Skor tablosu</a>
+<a href="02-model-comparison/both-test-sets.png">İki test kümesinin grafiği</a>
+<a href="02-model-comparison/line-models-by-writer.png">Yazar bazında F1</a>
+<a href="02-model-comparison/line-model-error-overlap.png">Hata örtüşmesi</a>
+</nav>
+<a href="02-model-comparison/final-result.png"><img src="02-model-comparison/final-result.png" alt="Dört modelin Macro-F1 sonuçları"></a>
+</section>
+
+<section><h2>ResNet18 ve CHURRO-3B</h2>
+<p>İlk koşuda iki modelin nerede ayrıştığı ve farklı eğitim tekrarlarıyla hangi sorunun test edildiği.</p>
+<nav aria-label="İkili karşılaştırma">
+<a href="03-resnet18-vs-churro/README.md">Sonuç ve yorum</a>
+<a href="03-resnet18-vs-churro/unseen-page-writer-f1.png">Yazar başına F1</a>
+<a href="03-resnet18-vs-churro/which-model-was-correct.png">Hangi model doğru bildi?</a><a href="03-resnet18-vs-churro/scores.csv">Skor tablosu</a>
+</nav></section>
+</main></body>
+</html>
+
+

@@ -1,0 +1,20 @@
+grouped_by,group,n_lines,acc_line_model,acc_word_vote,both_wrong,only_line_wrong,only_word_wrong
+scribe,S1,2381,0.9521,0.9681,52,62,24
+scribe,S2,275,0.9055,0.96,6,20,5
+scribe,S6,224,0.8661,0.9062,20,10,1
+scribe,S7,1359,0.9691,0.9617,22,20,30
+scribe,S8,275,0.8473,0.8255,35,7,13
+scribe,S9,2528,0.9929,0.9905,11,7,13
+scribe,S10,32,0.8125,0.8125,5,1,1
+scribe,S11,14,1.0,1.0,0,0,0
+scribe,S12,6,1.0,0.8333,0,0,1
+book,Band2,963,0.9273,0.945,35,35,18
+book,Band3,2225,0.9447,0.956,63,60,35
+book,Band4,1126,0.9556,0.9538,34,16,18
+book,Band5,2780,0.9874,0.9871,19,16,17
+words per line,low (<7),2144,0.9049,0.9109,118,86,73
+words per line,middle,2090,0.9876,0.9904,9,17,11
+words per line,high (>=11),2860,0.9832,0.9902,24,24,4
+line-model confidence,low (<0.99),2365,0.8951,0.9142,126,122,77
+line-model confidence,middle,2364,0.9894,0.9869,20,5,11
+line-model confidence,high (>=1.00),2365,0.9979,0.9979,5,0,0

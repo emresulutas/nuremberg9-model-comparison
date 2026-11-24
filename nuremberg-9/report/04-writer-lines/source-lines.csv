@@ -1,0 +1,10 @@
+writer,image,page_id,line_id,unseen_page
+S1,S01-line.png,Band2/Rst Nbg-Briefbücher-Nr 2_0022_left,r3l35,yes
+S2,S02-line.png,Band2/Rst Nbg-Briefbücher-Nr 2_0124_right,r3l22,yes
+S6,S06-line.png,Band2/Rst Nbg-Briefbücher-Nr 2_0056_right,r1l3,yes
+S7,S07-line.png,Band2/Rst Nbg-Briefbücher-Nr 2_0105_right,r2l15,yes
+S8,S08-line.png,Band3/Rst Nbg-Briefbücher-Nr 3_0128_right,r1l9,yes
+S9,S09-line.png,Band4/Rst Nbg-Briefbücher-Nr 4_0083_right,r2l11,yes
+S10,S10-line.png,Band5/Rst Nbg-Briefbücher-Nr 5_0209_left,r1l24,yes
+S11,S11-line.png,Band5/Rst Nbg-Briefbücher-Nr 5_0304_left,r1l17,no
+S12,S12-line.png,Band5/Rst Nbg-Briefbücher-Nr 5_0082_left,line_1577035845443_3517,no

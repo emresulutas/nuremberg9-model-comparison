@@ -1,0 +1,9 @@
+train: {'lines_seen': 35257, 'lines_cut': 32632, 'words': 272595}
+val: {'lines_seen': 7622, 'lines_cut': 7083, 'words': 59331}
+test: {'lines_seen': 7636, 'lines_cut': 7094, 'words': 59740}
+train words per class: [76644, 10459, 8474, 50297, 11045, 113858, 867, 662, 289] | weights: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.02]
+best epoch 39 (val macro-F1 0.770)
+words (word head)      accuracy 0.898  balanced 0.807  macro-F1 0.757  n=59740
+lines (words vote)     accuracy 0.966  balanced 0.918  macro-F1 0.907  n=7094
+lines (line head)      accuracy 0.961  balanced 0.927  macro-F1 0.900  n=7094
+wrote nuremberg-9/experiments/03_word_vs_line/results/words

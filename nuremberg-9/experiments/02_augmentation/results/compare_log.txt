@@ -1,0 +1,3 @@
+base {'balanced_accuracy': [0.905, 0.003], 'macro_f1': [0.882, 0.003], 'accuracy': [0.956, 0.001]}
+aug {'balanced_accuracy': [0.9, 0.001], 'macro_f1': [0.892, 0.003], 'accuracy': [0.958, 0.001]}
+wrote nuremberg-9/experiments/02_augmentation/results/compare.png

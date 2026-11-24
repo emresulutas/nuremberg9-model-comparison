@@ -1,0 +1,43 @@
+scribes: [1, 2, 6, 7, 8, 9, 10, 11, 12]   pages used: 1689   seed: 42
+base split: 1685 pages, 1685 of them in the table; new pages to place: 4
+
+=== fresh ===
+scribe |      train      |       val       |      test      
+       |   lines   pages |   lines   pages |   lines   pages
+     1 |   12589     568 |    2729     109 |    2702     111
+     2 |    1381      86 |     325      15 |     302      15
+     6 |    1055      77 |     244      18 |     234      17
+     7 |    6589     294 |    1442      64 |    1422      65
+     8 |    1272      66 |     290      17 |     286      14
+     9 |   12126     499 |    2609     110 |    2617     108
+    10 |     115       8 |      25       2 |      24       2
+    11 |      54       2 |      19       2 |      19       1
+    12 |       6       1 |      25       1 |      14       1
+EMPTY CELLS (scribe missing from a split): none
+THIN val/test cells (< 30 lines): [('val', 10, 25), ('val', 11, 19), ('val', 12, 25), ('test', 10, 24), ('test', 11, 19), ('test', 12, 14)]
+band shortcut val: line accuracy 0.563   balanced accuracy 0.222
+band shortcut test: line accuracy 0.606   balanced accuracy 0.239
+main scribe per band in train: {'Band5': 9, 'Band4': 9, 'Band3': 7, 'Band2': 1}
+pages of the base split now in another split: 745 of 1685
+wrote nuremberg-9/docs/split_v2a_fresh.json
+
+=== fixed ===
+scribe |      train      |       val       |      test      
+       |   lines   pages |   lines   pages |   lines   pages
+     1 |   12600     558 |    2709     114 |    2711     116
+     2 |    1400      81 |     302      16 |     306      19
+     6 |    1062      78 |     236      19 |     235      15
+     7 |    6591     294 |    1422      66 |    1440      63
+     8 |    1273      67 |     286      15 |     289      15
+     9 |   12140     503 |    2610     106 |    2602     108
+    10 |      96       7 |      36       2 |      32       3
+    11 |      36       2 |      30       1 |      26       2
+    12 |      20       2 |      25       1 |       0       0
+EMPTY CELLS (scribe missing from a split): [('test', 12)]
+THIN val/test cells (< 30 lines): [('val', 12, 25), ('test', 11, 26)]
+band shortcut val: line accuracy 0.588   balanced accuracy 0.235
+band shortcut test: line accuracy 0.545   balanced accuracy 0.240
+main scribe per band in train: {'Band2': 1, 'Band3': 7, 'Band4': 9, 'Band5': 9}
+pages of the base split now in another split: 0 of 1685
+wrote nuremberg-9/docs/split_v2b_fixed.json
+wrote nuremberg-9/docs/split_v2_compare.md

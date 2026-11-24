@@ -33,17 +33,26 @@ its last-stage windows. All maps are shown in the original crop coordinates and 
 The [CHURRO reference preview](reference/README.md) includes the saved whole-line scores, a two-line explanation panel,
 and the shared list of 27 test lines.
 
-## Reproduce the experiment
+## Run in tmux on BoXX
 
-Prepare the Nuremberg Letterbooks data as described in the [dataset setup](../../../datasets/README.md).
-From a Linux shell in the repository root, install the dependencies and select the available GPU IDs.
+In VS Code Remote SSH, open `/home/esulutas/churro-nuremberg-comparison` on BoXX. This checkout contains Nuremberg-9
+and the shared code. Join the `churro` tmux session from the VS Code terminal.
 
 ```bash
-python -m pip install -r requirements.txt
-CUDA_VISIBLE_DEVICES=0 bash nuremberg-9/scripts/run_model_comparison.sh
+tmux attach -t churro
 ```
 
-The runner accepts one or two GPUs. It writes new runs into the experiment's results directory and reuses completed stages. The published results are under the repository's separate [reports directory](../../../reports/).
+Run the comparison from the prompt inside the session. The script uses the prepared BoXX Python environment, weights,
+and grayscale line crops. It trains the three baselines, scores them against the saved CHURRO line model, and generates
+the score figures and explanation galleries. Press `Ctrl+B` followed by `D` to detach while the run continues.
+
+```bash
+CUDA_VISIBLE_DEVICES=1,2 bash nuremberg-9/scripts/run_model_comparison.sh
+```
+
+ResNet50 and ResNet18 run in sequence on GPU 1 while Swin-Tiny runs on GPU 2. Stage logs are under
+`logs/model_comparison/`. A rerun reuses completed stages. `compare.py` also runs by itself on a laptop with the tracked
+CHURRO predictions.
 
 ## Outputs
 
@@ -57,4 +66,4 @@ reference the saved whole-line run in `01_balanced_probe`.
 - `comparison/explanations/line_explanations.png` is the joint 300 dpi publication panel. The same folder contains all
   joint line galleries and raw maps. `catalog.json` records which lines were used in the publication panel.
 
-Outputs live beside this experiment because the existing Nuremberg-9 report builder replaces the entire `nuremberg-9/report/` directory.
+The paper report links to these outputs and builds its own figures from the saved metrics. [Four-model report](../../report/02-model-comparison/README.md)

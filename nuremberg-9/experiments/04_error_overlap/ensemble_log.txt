@@ -1,0 +1,20 @@
+lines: val 7083, test 7094 | line seeds [42, 43, 44, 45, 46] | word seeds [42, 43, 44]
+weight on words picked on validation: global 0.20; per pair min 0.15, median 0.45, max 0.80
+line model (5 seeds)                         n=5   bAcc 0.922 +- 0.003 (min 0.919, max 0.927)   macro-F1 0.896 +- 0.002
+word vote (3 seeds)                          n=3   bAcc 0.917 +- 0.005 (min 0.911, max 0.923)   macro-F1 0.910 +- 0.003
+line + line, 50/50 (control, 10 pairs)       n=10  bAcc 0.921 +- 0.004 (min 0.917, max 0.928)   macro-F1 0.897 +- 0.003
+word + word, 50/50 (control, 3 pairs)        n=3   bAcc 0.916 +- 0.004 (min 0.913, max 0.922)   macro-F1 0.910 +- 0.001
+line + word, 50/50 (15 pairs)                n=15  bAcc 0.935 +- 0.004 (min 0.931, max 0.941)   macro-F1 0.934 +- 0.003
+line + word, weight picked on val (15 pairs) n=15  bAcc 0.932 +- 0.006 (min 0.920, max 0.941)   macro-F1 0.928 +- 0.005
+fixed / broken (mean): {'vs line model': 91.1, 'vs word vote': 67.3} {'vs line model': 20.5, 'vs word vote': 51.4}
+recall per scribe, line / word / ens:
+  S1: 0.95 / 0.97 / 0.97
+  S2: 0.88 / 0.96 / 0.94
+  S6: 0.87 / 0.91 / 0.89
+  S7: 0.96 / 0.97 / 0.97
+  S8: 0.85 / 0.84 / 0.86
+  S9: 0.99 / 0.99 / 0.99
+  S10: 0.83 / 0.82 / 0.84
+  S11: 0.96 / 0.98 / 0.95
+  S12: 1.00 / 0.83 / 1.00
+wrote /home/esulutas/churro-nuremberg/nuremberg-9/report/6_error_overlap/ensemble

@@ -1,0 +1,513 @@
+page_id,line_id,unseen_page,true_writer,churro,resnet18,resnet50,swin_tiny,wrong_models
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,r1l7,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1570698994954_572,True,S1,S1,S7,S1,S1,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651975328_674,True,S1,S2,S2,S9,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651978175_679,True,S1,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651981297_684,True,S1,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651984294_689,True,S1,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651987187_694,True,S1,S2,S2,S9,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651991192_699,True,S1,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0010_left,line_1576651993625_704,True,S1,S8,S2,S11,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0019_right,line_1571141048271_442,True,S1,S1,S1,S9,S1,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0022_left,line_1574070883100_201,True,S1,S1,S1,S1,S6,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0022_left,r3l30,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,r1l1,True,S1,S1,S1,S1,S2,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,r1l2,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,r1l12,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,line_1574256184984_1714,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,r1l37,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,line_1576657667074_4126,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,line_1576657672229_4136,True,S1,S1,S1,S1,S6,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0033_left,line_1576657745205_4168,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0038_left,r1l2,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0038_left,r1l3,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0038_left,r1l6,True,S1,S1,S8,S8,S1,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0038_left,r1l7,True,S1,S6,S6,S1,S7,CHURRO-3B + ResNet18 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0038_left,line_1574329611647_727,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0038_left,line_1574329778603_751,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0054_left,r2l4,True,S6,S2,S6,S6,S6,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0054_left,r2l8,True,S2,S6,S1,S1,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0054_left,r2l17,True,S2,S9,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0054_left,r2l25,True,S2,S6,S8,S9,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0056_right,line_1576701186762_108,True,S6,S6,S6,S9,S6,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0058_right,r1l1,True,S1,S7,S7,S7,S1,CHURRO-3B + ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l6,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l7,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,line_1574930842770_516,True,S6,S6,S2,S2,S6,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,line_1574930921673_529,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,line_1582019328076_761,True,S6,S6,S1,S1,S6,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l10,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,line_1574930934185_538,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,line_1574930985667_547,True,S6,S2,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l12,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l13,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l14,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l15,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l16,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l17,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l18,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l19,True,S6,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0059_right,r2l20,True,S6,S6,S2,S7,S2,ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0062_left,r1l25,True,S1,S1,S1,S1,S7,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0062_left,line_1574954766794_165,True,S1,S1,S1,S6,S1,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_left,r2l13,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_left,r2l27,True,S1,S7,S7,S7,S1,CHURRO-3B + ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_left,r2l42,True,S1,S1,S6,S1,S1,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_right,r1l2,True,S2,S2,S2,S2,S9,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_right,line_1575039253885_65,True,S1,S1,S1,S1,S6,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_right,r1l40,True,S1,S10,S9,S1,S1,CHURRO-3B + ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_right,line_1576743863275_3054,True,S2,S2,S2,S7,S2,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0063_right,line_1576743866448_3059,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,r1l2,True,S2,S2,S2,S11,S2,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,line_1575357540438_307,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,r1l9,True,S2,S7,S1,S1,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,r1l15,True,S2,S2,S2,S9,S2,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,r1l21,True,S6,S6,S6,S1,S6,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,r1l26,True,S6,S1,S6,S9,S6,CHURRO-3B + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0065_right,line_1576744098493_3242,True,S2,S1,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0069_right,r2l1,True,S7,S1,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0079_right,line_1581580037985_73,True,S7,S7,S1,S7,S7,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0079_right,line_1575572628115_118,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0079_right,line_1575572715097_131,True,S7,S7,S7,S7,S2,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0085_right,r1l27,True,S1,S6,S12,S6,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0085_right,r1l28,True,S1,S2,S2,S2,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0085_right,r1l29,True,S1,S7,S8,S8,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0086_left,r2l9,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0086_left,r2l15,True,S7,S1,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0088_left,r2l6,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0088_left,r2l19,True,S7,S7,S7,S1,S7,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0088_left,r2l20,True,S7,S2,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0089_left,r1l6,True,S7,S6,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0089_left,line_1575881262202_558,True,S7,S7,S7,S7,S6,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0089_left,line_1576745783225_5367,True,S7,S7,S6,S7,S2,ResNet18 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0089_left,line_1576745822849_5420,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0094_left,line_1575889265283_1161,True,S1,S9,S2,S1,S1,CHURRO-3B + ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l10,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l11,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l12,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l13,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l14,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l15,True,S2,S6,S2,S2,S6,CHURRO-3B + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l16,True,S2,S6,S2,S2,S6,CHURRO-3B + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l18,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l20,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l25,True,S7,S1,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,line_1575961210574_61,True,S7,S7,S8,S7,S7,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0101_right,r1l36,True,S7,S1,S7,S1,S7,CHURRO-3B + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0103_right,r3l30,True,S7,S1,S7,S7,S1,CHURRO-3B + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0105_right,r2l9,True,S7,S7,S7,S6,S1,ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0106_left,r1l2,True,S1,S1,S6,S1,S1,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0106_left,r2l1,True,S7,S7,S9,S7,S7,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0106_left,r2l13,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0106_left,r2l14,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0106_right,r1l11,True,S1,S1,S1,S1,S6,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0106_right,r1l24,True,S7,S7,S1,S1,S1,ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,line_1581017682922_219,True,S6,S7,S9,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,r1l17,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,r1l26,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,line_1576749465635_8674,True,S7,S1,S7,S10,S7,CHURRO-3B + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,line_1576749467532_8679,True,S7,S7,S7,S10,S7,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,line_1576749473523_8694,True,S7,S7,S9,S1,S7,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_left,line_1576749475654_8699,True,S7,S7,S7,S10,S7,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r1l1,True,S7,S1,S6,S1,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l1,True,S7,S1,S7,S7,S1,CHURRO-3B + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l13,True,S7,S2,S2,S7,S7,CHURRO-3B + ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l16,True,S7,S7,S7,S1,S7,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l18,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l25,True,S7,S1,S1,S7,S7,CHURRO-3B + ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l34,True,S7,S7,S1,S1,S1,ResNet18 + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l36,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l39,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l40,True,S7,S7,S7,S1,S1,ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l43,True,S7,S7,S1,S7,S7,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l46,True,S7,S6,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,r2l48,True,S7,S7,S7,S8,S1,ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,line_1576749610690_8803,True,S7,S6,S7,S7,S1,CHURRO-3B + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,line_1576749613779_8808,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0117_right,line_1576749616397_8813,True,S7,S1,S7,S1,S7,CHURRO-3B + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0118_left,r1l6,True,S7,S1,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0118_left,r1l9,True,S7,S1,S7,S8,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0118_left,line_1576749718176_8901,True,S7,S2,S7,S7,S7,CHURRO-3B
+Band2/Rst Nbg-Briefbücher-Nr 2_0119_right,line_1575529938201_135,True,S7,S7,S7,S1,S1,ResNet50 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0119_right,r1l9,True,S7,S1,S7,S1,S7,CHURRO-3B + ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0124_left,r1l1,True,S7,S7,S8,S7,S1,ResNet18 + Swin-Tiny
+Band2/Rst Nbg-Briefbücher-Nr 2_0124_left,r1l3,True,S7,S7,S7,S1,S7,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0125_left,r2l1,True,S2,S2,S2,S1,S2,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0125_left,r2l3,True,S2,S2,S2,S1,S2,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0125_left,r2l5,True,S2,S2,S6,S2,S2,ResNet18
+Band2/Rst Nbg-Briefbücher-Nr 2_0125_left,r2l18,True,S2,S2,S2,S1,S2,ResNet50
+Band2/Rst Nbg-Briefbücher-Nr 2_0125_left,r2l21,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l2,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l3,True,S1,S1,S1,S1,S2,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l4,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l5,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l6,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l7,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l18,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l31,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0015_right,r1l35,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0017_right,r1l9,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0017_right,r1l14,True,S7,S1,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0020_left,r2l2,True,S7,S1,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0020_left,r2l12,True,S7,S8,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0026_left,line_1572978372901_39,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0030_right,r2l2,True,S6,S9,S6,S6,S1,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0030_right,r2l8,True,S6,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0030_right,r2l18,True,S6,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0030_right,r2l27,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0038_left,r1l36,True,S1,S1,S8,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0047_left,r3l10,True,S6,S7,S6,S6,S6,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0047_left,r3l11,True,S6,S2,S6,S6,S6,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0047_left,r3l19,True,S6,S2,S6,S6,S6,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0047_left,r3l24,True,S6,S2,S6,S6,S6,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0047_left,r3l37,True,S6,S1,S6,S6,S6,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0049_right,r1l1,True,S7,S9,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0049_right,line_1576565828890_278,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0049_right,line_1576565864459_312,True,S7,S7,S7,S8,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0049_right,line_1576565946019_387,True,S7,S2,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0049_right,r1l36,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0049_right,line_1576565902159_353,True,S7,S7,S7,S8,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0051_left,r1l13,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0051_left,r1l20,True,S1,S2,S1,S1,S6,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0051_left,r1l29,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0052_right,r3l2,True,S7,S7,S7,S1,S1,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0052_right,r3l25,True,S1,S1,S7,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0052_right,r3l33,True,S7,S7,S6,S1,S6,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0056_right,r1l1,True,S7,S7,S1,S7,S7,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0056_right,r1l13,True,S1,S1,S6,S6,S6,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0056_right,r1l39,True,S1,S1,S1,S1,S7,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,line_1576569342617_1703,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,line_1576569339719_1698,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,r2l6,True,S7,S7,S2,S7,S7,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,line_1584004134729_22,True,S7,S7,S6,S1,S6,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,r2l18,True,S7,S7,S8,S8,S6,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,r2l25,True,S7,S7,S6,S1,S6,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0061_right,r2l33,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0073_right,r1l1,True,S6,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0073_right,r1l2,True,S6,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0073_right,r3l13,True,S6,S2,S6,S6,S6,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0073_right,r3l16,True,S6,S6,S7,S1,S2,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0073_right,line_1576580237968_3792,True,S6,S1,S6,S9,S6,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0073_right,line_1576580241615_3797,True,S6,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l2,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l7,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l14,True,S1,S7,S6,S1,S9,CHURRO-3B + ResNet18 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l16,True,S1,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l18,True,S1,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585194124_5240,True,S1,S1,S9,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l46,True,S1,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585241493_5282,True,S1,S2,S6,S9,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,r1l66,True,S2,S2,S2,S1,S8,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585005061_5018,True,S1,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585007652_5023,True,S1,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585010236_5028,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585019148_5043,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585021949_5048,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585032908_5063,True,S1,S1,S1,S2,S1,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585036450_5068,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585046156_5075,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585064330_5110,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585067629_5115,True,S1,S11,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585093148_5147,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585095748_5152,True,S1,S1,S6,S6,S1,ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585098724_5157,True,S1,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0081_right,line_1576585101772_5162,True,S1,S6,S1,S6,S6,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0085_right,r1l17,True,S2,S2,S6,S9,S2,ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0085_right,r1l18,True,S2,S7,S6,S2,S7,CHURRO-3B + ResNet18 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0085_right,line_1584980037223_473,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0085_right,r1l42,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0097_left,r3l5,True,S7,S9,S7,S9,S7,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0097_left,r3l6,True,S7,S9,S1,S7,S7,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0104_right,r2l3,True,S6,S6,S6,S7,S6,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0104_right,line_1585929630856_130,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0105_right,line_1585991750612_372,True,S1,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0105_right,r1l5,True,S1,S6,S1,S9,S1,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0105_right,r1l10,True,S1,S1,S1,S1,S2,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0105_right,r1l15,True,S1,S2,S11,S2,S10,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0105_right,line_1585931840633_287,True,S1,S2,S1,S2,S2,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_left,r1l2,True,S7,S7,S7,S8,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_left,r1l13,True,S7,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_left,r1l14,True,S7,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_left,r1l20,True,S7,S7,S6,S6,S6,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_left,r1l21,True,S7,S6,S6,S6,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_right,r1l4,True,S7,S7,S8,S7,S7,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_right,r2l3,True,S6,S6,S6,S9,S9,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_right,r2l17,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0110_right,line_1576593602346_5670,True,S7,S1,S7,S1,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0122_right,r1l27,True,S6,S6,S6,S1,S6,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0122_right,r1l32,True,S6,S2,S2,S6,S6,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0122_right,r1l33,True,S6,S2,S1,S1,S6,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0128_right,r1l2,True,S8,S7,S8,S1,S7,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0128_right,line_1587056276804_668,True,S8,S6,S1,S1,S6,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0128_right,line_1576581620969_3067,True,S8,S1,S8,S8,S1,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0129_left,r1l1,True,S1,S1,S7,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0129_left,r1l3,True,S1,S8,S1,S1,S6,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0129_left,r2l31,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0130_left,r1l15,True,S2,S7,S2,S1,S7,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0130_left,r1l16,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0136_right,r1l15,True,S2,S7,S1,S2,S2,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0136_right,line_1576578645865_2008,True,S2,S2,S2,S1,S2,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0136_right,line_1587458307285_390,True,S2,S7,S9,S7,S2,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0136_right,r1l26,True,S2,S9,S2,S1,S6,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0136_right,line_1587458733264_430,True,S2,S7,S9,S1,S2,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0136_right,r1l31,True,S2,S7,S2,S7,S2,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0152_left,r3l1,True,S7,S1,S7,S7,S1,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0152_left,line_1576495705060_10693,True,S7,S1,S7,S7,S1,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0155_left,r2l23,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0155_right,line_1576495077274_10289,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0155_right,line_1576495080567_10299,True,S7,S8,S8,S8,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0155_right,line_1576495075310_10284,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0160_left,r2l1,True,S7,S7,S8,S7,S7,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0160_left,r3l17,True,S7,S8,S8,S9,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0162_left,r1l16,True,S7,S1,S1,S1,S7,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0162_left,r1l30,True,S7,S7,S7,S1,S1,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0168_left,r1l3,True,S7,S1,S1,S1,S7,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0168_left,r1l7,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0168_left,r1l9,True,S1,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0168_left,r2l1,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0168_left,line_1576488006233_5148,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0168_left,r2l18,True,S7,S7,S7,S7,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0169_right,r1l1,True,S7,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0169_right,r1l20,True,S7,S7,S1,S1,S7,ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0169_right,line_1576487586038_4909,True,S7,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0169_right,line_1576487588512_4914,True,S7,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0169_right,line_1576487627634_4950,True,S7,S8,S7,S8,S7,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0169_right,line_1576487631480_4960,True,S7,S8,S2,S2,S7,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0170_right,r1l1,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0170_right,r2l1,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0173_left,r1l2,True,S2,S8,S2,S2,S2,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_left,r1l8,True,S7,S7,S8,S7,S7,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_left,r1l14,True,S1,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_left,r1l15,True,S1,S8,S1,S8,S1,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_left,r1l16,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_left,r1l17,True,S1,S1,S8,S2,S8,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_left,line_1588871953819_567,True,S1,S7,S1,S9,S1,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0174_right,r1l22,True,S8,S7,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0180_right,line_1576485263009_3477,True,S7,S8,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0187_left,r1l18,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0187_left,line_1576484231491_2762,True,S1,S1,S9,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0187_left,line_1576484233915_2767,True,S1,S1,S8,S9,S7,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0189_right,r1l6,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0189_right,r1l9,True,S1,S1,S1,S1,S6,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r1l1,True,S8,S7,S8,S1,S7,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l1,True,S8,S8,S8,S8,S1,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l30,True,S8,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l31,True,S8,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l32,True,S8,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l33,True,S8,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l34,True,S8,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_left,r2l35,True,S8,S7,S7,S7,S7,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_right,line_1576483075123_2263,True,S7,S1,S8,S7,S1,CHURRO-3B + ResNet18 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_right,r1l9,True,S8,S8,S8,S8,S9,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0190_right,r1l30,True,S8,S8,S8,S1,S8,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0191_right,r1l14,True,S8,S8,S1,S8,S8,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0191_right,r1l16,True,S8,S8,S8,S1,S8,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0191_right,r1l21,True,S8,S1,S8,S8,S1,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0192_left,r1l3,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0192_left,r3l5,True,S7,S8,S8,S7,S7,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0192_left,line_1576482643095_2058,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0192_left,line_1576482644780_2063,True,S7,S8,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0193_left,r1l14,True,S7,S8,S8,S7,S7,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0199_right,r1l1,True,S8,S8,S8,S1,S1,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0199_right,r1l8,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0199_right,r1l12,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0199_right,r1l22,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0199_right,r1l26,True,S8,S8,S8,S1,S8,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0200_right,r1l6,True,S7,S8,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0200_right,r1l8,True,S7,S8,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0200_right,r1l14,True,S7,S7,S7,S1,S1,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0201_right,r1l11,True,S8,S1,S8,S8,S1,CHURRO-3B + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0206_left,r1l2,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0206_left,r1l15,True,S2,S2,S2,S6,S2,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0206_left,r1l25,True,S7,S9,S7,S7,S7,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0206_left,r1l27,True,S7,S7,S8,S7,S7,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0207_right,r1l1,True,S1,S8,S8,S1,S8,CHURRO-3B + ResNet18 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0207_right,r1l2,True,S1,S8,S8,S8,S1,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0207_right,line_1576426530613_5427,True,S1,S1,S1,S7,S2,ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0207_right,line_1576426534124_5432,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0215_right,r1l22,True,S8,S9,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0215_right,r1l33,True,S8,S1,S8,S9,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0221_left,line_1576423526594_3954,True,S1,S7,S7,S1,S7,CHURRO-3B + ResNet18 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0227_right,line_1576409593840_3015,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0227_right,line_1576409707057_3100,True,S1,S1,S8,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0227_right,line_1576409712705_3105,True,S1,S1,S11,S1,S1,ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0232_left,r1l20,True,S8,S8,S8,S1,S8,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0234_right,r2l23,True,S8,S8,S8,S1,S8,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0241_right,r1l10,True,S1,S9,S9,S1,S1,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0245_right,r1l21,True,S8,S7,S8,S1,S8,CHURRO-3B + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0260_left,r1l1,True,S7,S7,S7,S1,S7,ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0260_left,r1l13,True,S7,S7,S7,S7,S6,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0260_left,line_1576349346377_4003,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0264_left,r2l5,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0264_left,line_1576348086102_3445,True,S1,S1,S1,S1,S7,Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0264_left,r2l17,True,S1,S7,S7,S1,S1,CHURRO-3B + ResNet18
+Band3/Rst Nbg-Briefbücher-Nr 3_0264_left,r2l33,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l1,True,S1,S1,S8,S8,S8,ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l2,True,S1,S8,S8,S8,S1,CHURRO-3B + ResNet18 + ResNet50
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l3,True,S1,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l4,True,S1,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l5,True,S1,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l6,True,S1,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band3/Rst Nbg-Briefbücher-Nr 3_0269_left,r1l7,True,S1,S8,S8,S8,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l1,True,S8,S1,S2,S12,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l5,True,S8,S8,S8,S8,S11,Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l10,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l11,True,S8,S1,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l12,True,S8,S1,S8,S11,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l13,True,S8,S1,S8,S1,S8,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l15,True,S8,S1,S8,S1,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l16,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l17,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l18,True,S8,S1,S8,S1,S8,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,line_1573468587841_553,True,S8,S1,S8,S8,S1,CHURRO-3B + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l19,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l20,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l21,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l22,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l23,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l24,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l25,True,S8,S1,S8,S8,S8,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l26,True,S8,S1,S8,S1,S8,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l27,True,S8,S1,S8,S1,S8,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0003_right,r2l28,True,S8,S1,S8,S1,S8,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0008_left,r1l8,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0011_left,r1l1,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0011_left,r1l4,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0011_left,r1l5,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0011_left,line_1576661125583_511,True,S1,S9,S8,S1,S7,CHURRO-3B + ResNet18 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0011_left,r1l15,True,S1,S6,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0011_left,line_1582199640753_262,True,S1,S1,S9,S9,S9,ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0025_left,r1l3,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0025_left,r1l5,True,S1,S1,S1,S9,S1,ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0025_left,r1l13,True,S1,S9,S9,S9,S9,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0025_left,r1l23,True,S1,S11,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0030_right,r1l2,True,S1,S2,S1,S1,S2,CHURRO-3B + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0030_right,line_1576667850918_2624,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0030_right,r1l33,True,S1,S1,S1,S11,S1,ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0044_left,r2l29,True,S9,S7,S9,S1,S9,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0064_right,r1l1,True,S1,S1,S8,S7,S7,ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0064_right,r1l6,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0064_right,r1l15,True,S1,S8,S1,S8,S1,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0064_right,r1l18,True,S1,S8,S1,S8,S2,CHURRO-3B + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0064_right,line_1573111679898_206,True,S1,S1,S8,S1,S1,ResNet18
+Band4/Rst Nbg-Briefbücher-Nr 4_0072_right,r1l1,True,S9,S2,S9,S9,S7,CHURRO-3B + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0077_left,r1l1,True,S1,S6,S1,S1,S6,CHURRO-3B + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0077_left,r1l19,True,S1,S11,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0077_left,r1l22,True,S1,S1,S1,S6,S1,ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0077_left,line_1576742631645_2098,True,S1,S1,S1,S1,S6,Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0077_left,r1l37,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0078_left,r1l2,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0078_left,line_1573112283446_274,True,S1,S1,S7,S1,S1,ResNet18
+Band4/Rst Nbg-Briefbücher-Nr 4_0078_left,r1l16,True,S1,S9,S1,S9,S1,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0078_left,line_1573112532058_329,True,S1,S11,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0078_right,r1l28,True,S9,S9,S1,S9,S6,ResNet18 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0078_right,line_1576742842085_2244,True,S9,S9,S9,S9,S6,Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0083_right,r2l9,True,S9,S9,S9,S1,S9,ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0084_right,line_1586276426492_326,True,S9,S9,S1,S1,S9,ResNet18 + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0090_left,r1l31,True,S9,S12,S9,S9,S9,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0090_left,line_1576740414989_1056,True,S9,S9,S9,S1,S9,ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0092_left,r1l21,True,S9,S9,S1,S9,S9,ResNet18
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l2,True,S8,S7,S7,S7,S8,CHURRO-3B + ResNet18 + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l6,True,S8,S7,S1,S8,S1,CHURRO-3B + ResNet18 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l8,True,S8,S8,S8,S8,S1,Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l10,True,S8,S8,S8,S8,S2,Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,line_1576738679522_144,True,S8,S8,S7,S1,S1,ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,line_1576738682490_149,True,S8,S1,S1,S8,S6,CHURRO-3B + ResNet18 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l17,True,S8,S1,S8,S8,S1,CHURRO-3B + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l27,True,S9,S8,S9,S9,S9,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0097_left,r1l28,True,S9,S1,S9,S9,S9,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0104_right,line_1576676187403_11823,True,S8,S8,S1,S1,S8,ResNet18 + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0104_right,line_1587207799987_240,True,S8,S7,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0104_right,line_1576676216018_11849,True,S8,S8,S8,S8,S1,Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0104_right,r1l14,True,S8,S7,S8,S7,S6,CHURRO-3B + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0104_right,r1l30,True,S9,S9,S1,S9,S9,ResNet18
+Band4/Rst Nbg-Briefbücher-Nr 4_0120_left,r1l3,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0121_left,r2l1,True,S1,S2,S1,S1,S6,CHURRO-3B + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0121_left,line_1576668365335_9382,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0121_right,line_1587889387032_26,True,S1,S1,S9,S1,S1,ResNet18
+Band4/Rst Nbg-Briefbücher-Nr 4_0121_right,r2l17,True,S1,S9,S1,S9,S1,CHURRO-3B + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0121_right,r2l32,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band4/Rst Nbg-Briefbücher-Nr 4_0136_left,line_1576663594627_7760,True,S9,S1,S9,S1,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band4/Rst Nbg-Briefbücher-Nr 4_0143_right,r1l2,True,S1,S1,S1,S7,S1,ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0143_right,r1l16,True,S1,S7,S7,S1,S1,CHURRO-3B + ResNet18
+Band4/Rst Nbg-Briefbücher-Nr 4_0143_right,r1l26,True,S1,S1,S7,S9,S1,ResNet18 + ResNet50
+Band4/Rst Nbg-Briefbücher-Nr 4_0143_right,r1l39,True,S1,S1,S8,S1,S1,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0010_right,r1l2,True,S1,S9,S9,S9,S1,CHURRO-3B + ResNet18 + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0010_right,r1l3,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0010_right,r1l6,True,S1,S1,S6,S1,S1,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0014_left,r1l36,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0014_left,line_1577008241937_586,True,S1,S1,S6,S6,S1,ResNet18 + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0016_right,r1l24,True,S1,S11,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0029_left,r1l5,True,S1,S2,S2,S6,S9,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0029_left,line_1589380906900_379,True,S1,S1,S1,S9,S1,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0031_right,line_1577011295286_2330,True,S9,S1,S1,S9,S1,CHURRO-3B + ResNet18 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0051_right,line_1571301403004_475,True,S1,S1,S9,S1,S1,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0060_left,r2l2,True,S9,S9,S9,S1,S1,ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0063_left,r2l2,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0063_left,r2l3,True,S1,S7,S2,S1,S7,CHURRO-3B + ResNet18 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0067_left,r1l3,True,S9,S9,S2,S9,S9,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0093_left,r1l14,True,S9,S9,S1,S9,S1,ResNet18 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0095_left,r1l11,True,S9,S7,S9,S9,S9,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0099_left,line_1572871811838_1149,True,S1,S2,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0107_left,r1l15,True,S9,S9,S9,S9,S7,Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0119_left,r1l27,True,S9,S9,S1,S9,S1,ResNet18 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0120_left,line_1577179236229_324,True,S9,S9,S9,S2,S9,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0121_left,line_1577190867406_196,True,S9,S9,S8,S9,S9,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0149_left,r1l23,True,S9,S7,S9,S9,S9,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0151_right,r2l8,True,S1,S11,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0163_right,r1l11,True,S9,S9,S7,S1,S1,ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0163_right,r1l27,True,S9,S9,S9,S1,S9,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0163_right,line_1577277101329_590,True,S9,S9,S6,S9,S9,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0164_right,r1l1,True,S9,S6,S9,S9,S9,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0164_right,line_1577277298631_776,True,S9,S2,S9,S1,S1,CHURRO-3B + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0164_right,line_1577277320703_807,True,S9,S7,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0164_right,line_1577277325143_817,True,S9,S7,S1,S1,S9,CHURRO-3B + ResNet18 + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0166_right,r1l5,True,S9,S9,S9,S9,S2,Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0166_right,line_1577277597386_1102,True,S9,S2,S1,S1,S9,CHURRO-3B + ResNet18 + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0166_right,r1l25,True,S9,S9,S9,S8,S9,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0168_left,r1l2,True,S9,S9,S1,S9,S1,ResNet18 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0168_left,line_1577277735125_1261,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0173_right,line_1572872749698_1261,True,S1,S1,S7,S1,S1,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0173_right,r1l18,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0176_left,r2l4,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0176_left,r2l5,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0176_left,r2l6,True,S2,S6,S2,S2,S2,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0176_left,r2l9,True,S2,S10,S2,S10,S2,CHURRO-3B + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0176_left,r2l13,True,S2,S2,S2,S10,S2,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0209_left,r1l23,True,S10,S10,S10,S10,S11,Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0209_left,r1l29,True,S10,S10,S10,S11,S10,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0222_left,r1l12,True,S9,S9,S2,S9,S9,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0225_right,r1l1,True,S9,S1,S6,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0225_right,line_1577284213494_8314,True,S9,S9,S9,S1,S1,ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0233_left,line_1577285193604_9319,True,S1,S1,S6,S1,S1,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0237_right,r1l1,True,S9,S1,S8,S1,S8,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0237_right,r1l2,True,S9,S1,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0237_right,r1l3,True,S9,S1,S6,S11,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0237_right,r1l4,True,S9,S1,S1,S8,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0237_right,r1l5,True,S9,S11,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0241_left,r1l16,True,S9,S9,S1,S9,S9,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0265_right,r1l2,True,S10,S9,S7,S12,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0265_right,r1l5,True,S10,S2,S9,S9,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0265_right,r1l11,True,S10,S9,S1,S1,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0265_right,r1l12,True,S10,S10,S10,S10,S2,Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0268_left,line_1592203118379_1910,True,S9,S9,S9,S1,S9,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0268_left,line_1592203147727_1942,True,S9,S9,S9,S9,S2,Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0277_left,r1l1,True,S9,S9,S9,S9,S1,Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0277_left,r1l31,True,S9,S9,S8,S1,S1,ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0280_right,r1l3,True,S1,S8,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0280_right,line_1592205310407_3278,True,S1,S7,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0286_left,line_1592206057866_3728,True,S9,S9,S1,S9,S9,ResNet18
+Band5/Rst Nbg-Briefbücher-Nr 5_0300_left,r1l1,True,S10,S10,S11,S10,S12,ResNet18 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0300_left,r1l2,True,S10,S9,S10,S10,S2,CHURRO-3B + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0300_left,line_1592207754623_4213,True,S10,S9,S1,S1,S1,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0300_left,r1l12,True,S10,S1,S10,S1,S10,CHURRO-3B + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0303_left,r1l3,True,S1,S1,S1,S12,S1,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0303_left,r1l4,True,S1,S9,S1,S1,S1,CHURRO-3B
+Band5/Rst Nbg-Briefbücher-Nr 5_0306_left,line_1592208499108_4592,False,S1,S9,S1,S9,S1,CHURRO-3B + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0306_right,line_1592208676637_5155,True,S9,S9,S7,S9,S9,ResNet18
+Band5/StAN Rst Nürnberg Briefbücher des Innern Rats 5 fol 69 a r,r2l2,True,S9,S9,S9,S1,S9,ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0082_left,line_1577035845443_3517,False,S12,S6,S2,S1,S2,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0106_right,r1l18,False,S12,S12,S1,S9,S2,ResNet18 + ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0304_left,r1l28,False,S11,S11,S1,S1,S11,ResNet18 + ResNet50
+Band5/Rst Nbg-Briefbücher-Nr 5_0304_right,r1l24,False,S11,S11,S11,S9,S1,ResNet50 + Swin-Tiny
+Band5/Rst Nbg-Briefbücher-Nr 5_0312_left,r1l11,False,S12,S12,S12,S10,S12,ResNet50

@@ -1,0 +1,33 @@
+test_subset,wrong_models,correct_models,models_wrong,lines
+full_test,,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny,0,7124
+full_test,CHURRO-3B,ResNet18 + ResNet50 + Swin-Tiny,1,139
+full_test,ResNet18,CHURRO-3B + ResNet50 + Swin-Tiny,1,39
+full_test,CHURRO-3B + ResNet18,ResNet50 + Swin-Tiny,2,12
+full_test,ResNet50,CHURRO-3B + ResNet18 + Swin-Tiny,1,53
+full_test,CHURRO-3B + ResNet50,ResNet18 + Swin-Tiny,2,25
+full_test,ResNet18 + ResNet50,CHURRO-3B + Swin-Tiny,2,18
+full_test,CHURRO-3B + ResNet18 + ResNet50,Swin-Tiny,3,14
+full_test,Swin-Tiny,CHURRO-3B + ResNet18 + ResNet50,1,41
+full_test,CHURRO-3B + Swin-Tiny,ResNet18 + ResNet50,2,20
+full_test,ResNet18 + Swin-Tiny,CHURRO-3B + ResNet50,2,7
+full_test,CHURRO-3B + ResNet18 + Swin-Tiny,ResNet50,3,11
+full_test,ResNet50 + Swin-Tiny,CHURRO-3B + ResNet18,2,14
+full_test,CHURRO-3B + ResNet50 + Swin-Tiny,ResNet18,3,15
+full_test,ResNet18 + ResNet50 + Swin-Tiny,CHURRO-3B,3,19
+full_test,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny,,4,85
+unseen_pages,,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny,0,7077
+unseen_pages,CHURRO-3B,ResNet18 + ResNet50 + Swin-Tiny,1,139
+unseen_pages,ResNet18,CHURRO-3B + ResNet50 + Swin-Tiny,1,39
+unseen_pages,CHURRO-3B + ResNet18,ResNet50 + Swin-Tiny,2,12
+unseen_pages,ResNet50,CHURRO-3B + ResNet18 + Swin-Tiny,1,52
+unseen_pages,CHURRO-3B + ResNet50,ResNet18 + Swin-Tiny,2,24
+unseen_pages,ResNet18 + ResNet50,CHURRO-3B + Swin-Tiny,2,17
+unseen_pages,CHURRO-3B + ResNet18 + ResNet50,Swin-Tiny,3,14
+unseen_pages,Swin-Tiny,CHURRO-3B + ResNet18 + ResNet50,1,41
+unseen_pages,CHURRO-3B + Swin-Tiny,ResNet18 + ResNet50,2,20
+unseen_pages,ResNet18 + Swin-Tiny,CHURRO-3B + ResNet50,2,7
+unseen_pages,CHURRO-3B + ResNet18 + Swin-Tiny,ResNet50,3,11
+unseen_pages,ResNet50 + Swin-Tiny,CHURRO-3B + ResNet18,2,13
+unseen_pages,CHURRO-3B + ResNet50 + Swin-Tiny,ResNet18,3,15
+unseen_pages,ResNet18 + ResNet50 + Swin-Tiny,CHURRO-3B,3,18
+unseen_pages,CHURRO-3B + ResNet18 + ResNet50 + Swin-Tiny,,4,84

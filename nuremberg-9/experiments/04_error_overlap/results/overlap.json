@@ -1,0 +1,84 @@
+{
+ "overlap": {
+  "n_lines": 7094,
+  "line_wrong": 278,
+  "word_wrong": 239,
+  "both_wrong": 151,
+  "only_line_wrong": 127,
+  "only_word_wrong": 88,
+  "both_right": 6728,
+  "oracle_accuracy": 0.9787144065407386,
+  "oracle_balanced_accuracy": 0.9514437970875098,
+  "kappa_predicted_scribe": 0.9512295528834857,
+  "mcnemar_p": 0.009393715378303876,
+  "error_jaccard": 0.412568306010929,
+  "both_wrong_same_wrong_scribe": 0.7682119205298014,
+  "agree_on_scribe": 0.9647589512263886
+ },
+ "seed_control": {
+  "line vs line (same model, other seed)": {
+   "pairs": 10,
+   "disagree_mean": 0.012616295460952918,
+   "error_jaccard_mean": 0.769326489497085
+  },
+  "word vs word (same model, other seed)": {
+   "pairs": 3,
+   "disagree_mean": 0.004839770698242647,
+   "error_jaccard_mean": 0.8730370062177842
+  },
+  "word vs line": {
+   "pairs": 15,
+   "disagree_mean": 0.03637815994737337,
+   "error_jaccard_mean": 0.4013194720255219
+  }
+ },
+ "scribes": [
+  1,
+  2,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "line_seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "word_seeds": [
+  42,
+  43,
+  44
+ ],
+ "run": {
+  "git_commit": "860fffc7cd9cf1ff370a0c5bd2e8561be7bf458b",
+  "git_dirty": true,
+  "timestamp": "2026-11-16T14:24:17+00:00",
+  "config": {
+   "features": "features/churro_v2_words",
+   "split_json": "nuremberg-9/docs/split_v2_9scribes.json",
+   "line_main": "nuremberg-9/experiments/01_balanced_probe/results/weighted_oversample/blk16_predictions.npz",
+   "line_seeds": "nuremberg-9/experiments/02_augmentation/results/seeds/base_s{}/blk16_predictions.npz",
+   "line_seed_ids": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "word_main": "nuremberg-9/experiments/03_word_vs_line/results/words",
+   "word_seeds": "nuremberg-9/experiments/03_word_vs_line/results/words_s{}",
+   "word_seed_ids": [
+    43,
+    44
+   ],
+   "out": "nuremberg-9/report/6_error_overlap",
+   "results": "nuremberg-9/experiments/04_error_overlap/results"
+  }
+ }
+}

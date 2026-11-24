@@ -1,4 +1,6 @@
-# 9 scribes, imbalance handling (plan step 3): methods and choices
+# Balanced Probe · CHURRO-3B whole-line classifier
+
+Every reported writer-identification score uses a linear classifier trained on whole-line features from block 16 of the frozen CHURRO-3B visual encoder. The book-based shortcut score comes from assigning the book's main writer. See the [results and figures](results/weighted_oversample/README.md).
 
 Made 2026-10-30 / 2026-11-02. Code: `train_probe.py`, run with `nuremberg-9/scripts/run_probe9.sh`
 (features first: `run_extract_new_scribes.sh`). Results: `results/weighted_oversample/`.

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# From the active Python environment: bash nuremberg-9/scripts/run_model_comparison.sh
+# From the active BoXX Python environment: bash nuremberg-9/scripts/run_model_comparison.sh
 # Add --prepare-layout to create result directories and link the existing CHURRO fit only.
 # NUREMBERG_ROOT can point to an absolute dataset path. The default is datasets/nuremberg.
 # Defaults to GPU 1 for ResNet50 then ResNet18, and GPU 2 for Swin-Tiny.
 # CUDA_VISIBLE_DEVICES can select one or two GPUs. DEVICE=cpu runs serially.
-# PYTHON_BIN defaults to python.
+# PYTHON_BIN uses the BoXX comparison environment when present, or python elsewhere.
 # TRAIN_BATCH_SIZE, TRAIN_MAX_BATCH_PIXELS and TRAIN_WORKERS override trainer defaults.
 # RESULTS_DIR defaults to the experiment's results/whole_line. Use a new directory for changed training settings.
 # Stage logs are appended under logs/model_comparison. Run the same command again after fixing a failed stage.
@@ -27,7 +27,15 @@ explanation_models=(churro "${models[@]}")
 fit_files=(best.pt predictions.npz metrics.json)
 churro_files=(blk16_head.npz blk16_predictions.npz blk16_metrics.json summary.json
               blk16_confusion.png blk16_curves.png blk16_recall.png log.txt)
-python_bin=${PYTHON_BIN:-python}
+boxx_python=/HDD2/esulutas/envs/churro-comparison/bin/python
+if [[ ! -v PYTHON_BIN && -x $boxx_python ]]; then
+    python_bin=$boxx_python
+else
+    python_bin=${PYTHON_BIN:-python}
+fi
+if [[ ! -v HF_HOME && -d /HDD2/esulutas/hf_cache ]]; then
+    export HF_HOME=/HDD2/esulutas/hf_cache
+fi
 export PYTHONUNBUFFERED=1 CUDA_DEVICE_ORDER=PCI_BUS_ID
 
 die() {
@@ -92,14 +100,14 @@ fi
 if [[ -n ${NUREMBERG_ROOT:-} && $data_root != /* ]]; then
     die 'NUREMBERG_ROOT must be an absolute path.'
 fi
-command -v "$python_bin" >/dev/null || die "Cannot find $python_bin. Activate the experiment environment first."
+command -v "$python_bin" >/dev/null || die "Cannot find $python_bin. Activate the BoXX experiment environment first."
 
 gpu_ids=()
 case $device in
     cuda|cuda:0)
         gpu_list=${CUDA_VISIBLE_DEVICES-1,2}
         if [[ -z $gpu_list || $gpu_list == ,* || $gpu_list == *, || $gpu_list == *,,* ]]; then
-            die 'Set CUDA_VISIBLE_DEVICES to one or two CUDA GPU IDs, e.g. 1,2.'
+            die 'Set CUDA_VISIBLE_DEVICES to one or two BoXX GPU IDs, e.g. 1,2.'
         fi
         IFS=, read -r -a gpu_ids <<< "$gpu_list"
         if (( ${#gpu_ids[@]} > 2 )) || [[ ${gpu_ids[0]} == "${gpu_ids[1]:-}" ]]; then
@@ -159,7 +167,7 @@ train_lane() {
     for model in "$@"; do
         model_dir="$results/$model/fit"
         if ! complete_directory "$model_dir" "${fit_files[@]}"; then
-            printf 'Training %s on %s\n' "$model" "${gpu:+GPU }${gpu:-CPU}"
+            printf 'Training %s on %s\n' "$model" "${gpu:+GPU $gpu}${gpu:-CPU}"
             run_stage "$model" env CUDA_VISIBLE_DEVICES="$gpu" "$python_bin" "$exp/train_baseline.py" \
                 --model "$model" --cache-dir "$cache_dir" --out "$model_dir" --device "$device" \
                 "${training_args[@]}"

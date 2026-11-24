@@ -1,0 +1,25 @@
+Epoch 1: train loss 0.5047, validation macro-F1 0.8172
+Epoch 2: train loss 0.1080, validation macro-F1 0.7974
+Epoch 3: train loss 0.0720, validation macro-F1 0.8396
+Epoch 4: train loss 0.0562, validation macro-F1 0.8578
+Epoch 5: train loss 0.0426, validation macro-F1 0.8159
+Epoch 6: train loss 0.0328, validation macro-F1 0.8541
+Epoch 7: train loss 0.0277, validation macro-F1 0.8861
+Epoch 8: train loss 0.0297, validation macro-F1 0.8477
+Epoch 9: train loss 0.0250, validation macro-F1 0.8518
+Epoch 10: train loss 0.0164, validation macro-F1 0.8512
+Epoch 11: train loss 0.0186, validation macro-F1 0.8307
+Epoch 12: train loss 0.0055, validation macro-F1 0.8592
+Epoch 13: train loss 0.0039, validation macro-F1 0.8841
+Epoch 14: train loss 0.0040, validation macro-F1 0.8935
+Epoch 15: train loss 0.0029, validation macro-F1 0.8752
+Epoch 16: train loss 0.0043, validation macro-F1 0.8910
+Epoch 17: train loss 0.0036, validation macro-F1 0.8907
+Epoch 18: train loss 0.0027, validation macro-F1 0.8496
+Epoch 19: train loss 0.0007, validation macro-F1 0.8775
+Epoch 20: train loss 0.0006, validation macro-F1 0.8581
+Epoch 21: train loss 0.0006, validation macro-F1 0.8345
+Epoch 22: train loss 0.0006, validation macro-F1 0.8618
+Epoch 23: train loss 0.0005, validation macro-F1 0.8615
+Epoch 24: train loss 0.0003, validation macro-F1 0.8603
+Best validation macro-F1 0.8935 at epoch 14. Results in nuremberg-9/experiments/06_resnet18_vs_churro/results/resnet18/seed_43

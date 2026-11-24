@@ -1,0 +1,7 @@
+model,n,bAcc_mean,bAcc_std,bAcc_min,bAcc_max,macroF1_mean,macroF1_std
+line model (5 seeds),5,0.9224,0.0031,0.9188,0.9273,0.8962,0.0018
+word vote (3 seeds),3,0.9173,0.005,0.9111,0.9232,0.9101,0.0025
+"line + line, 50/50 (control, 10 pairs)",10,0.9215,0.0036,0.917,0.9283,0.897,0.0031
+"word + word, 50/50 (control, 3 pairs)",3,0.9165,0.0039,0.9128,0.9219,0.9104,0.0011
+"line + word, 50/50 (15 pairs)",15,0.935,0.0038,0.9309,0.9413,0.9343,0.0034
+"line + word, weight picked on val (15 pairs)",15,0.9316,0.0056,0.9198,0.9409,0.9285,0.0054

@@ -1,4 +1,4 @@
-"""Fine-tune an image baseline on whole Nuremberg-9 lines."""
+"""Fine-tune an image baseline on Nuremberg-9 whole lines or word crops."""
 
 from __future__ import annotations
 
@@ -47,7 +47,7 @@ def build_model(model_name: str, pretrained: bool = False) -> nn.Module:
     return model
 
 
-class WholeLineDataset(Dataset):
+class CropDataset(Dataset):
     def __init__(self, rows, transform):
         self.rows = rows
         self.transform = transform
@@ -99,7 +99,7 @@ def sampling_and_weights(rows, oversample, beta):
 
 
 @torch.inference_mode()
-def predict_lines(model, loader, device, max_batch_pixels):
+def predict_lines(model, loader, device, max_batch_pixels, *, log_prob=False):
     """Score each full line once and restore the original manifest order."""
     model.eval()
     predictions = []
@@ -108,7 +108,8 @@ def predict_lines(model, loader, device, max_batch_pixels):
         batch = torch.empty((batch_size, len(SCRIBES)), dtype=torch.float32)
         for positions, images, _ in pixel_batches(groups, max_batch_pixels):
             logits = model(images.to(device, non_blocking=True))
-            batch[positions] = logits.float().softmax(dim=1).cpu()
+            logits = logits.float()
+            batch[positions] = (logits.log_softmax(dim=1) if log_prob else logits.softmax(dim=1)).cpu()
         predictions.append(batch)
     return torch.cat(predictions).numpy()
 
@@ -122,6 +123,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", required=True, choices=MODEL_NAMES)
     parser.add_argument("--cache-dir", required=True)
+    parser.add_argument("--input-view", choices=(INPUT_VIEW, "word"), default=INPUT_VIEW)
     parser.add_argument("--out", required=True, help="New output directory for this run")
     parser.add_argument("--batch-size", type=int, default=32, help="Lines per optimizer step")
     parser.add_argument("--max-batch-pixels", type=int, default=1_003_520,
@@ -160,7 +162,7 @@ def main():
     if not all(rows.values()):
         raise ValueError("The line cache must have train, val and test examples")
     labels = {split: np.asarray([row.label for row in lines], dtype=np.int64) for split, lines in rows.items()}
-    datasets = {split: WholeLineDataset(rows[split], transform) for split in splits}
+    datasets = {split: CropDataset(rows[split], transform) for split in splits}
     sampler, weights, counts = sampling_and_weights(rows["train"], args.oversample, args.beta)
     options = {"num_workers": args.workers, "pin_memory": amp, "persistent_workers": args.workers > 0,
                "collate_fn": group_by_shape}
@@ -210,17 +212,21 @@ def main():
     saved = {"scribes": np.asarray(SCRIBES, dtype=np.int64)}
     evaluation = {}
     for split in ("val", "test"):
-        probabilities = predict_lines(model, eval_loaders[split], device, args.max_batch_pixels)
+        word_input = args.input_view == "word"
+        prediction = predict_lines(model, eval_loaders[split], device, args.max_batch_pixels, log_prob=word_input)
+        if word_input:
+            saved[f"{split}_log_prob"] = prediction
+        probabilities = np.exp(prediction) if word_input else prediction
         saved.update({f"{split}_prob": probabilities, f"{split}_y": labels[split],
                       f"{split}_page_id": np.asarray([str(row.page_id) for row in rows[split]], dtype=str),
                       f"{split}_line_id": np.asarray([str(row.line_id) for row in rows[split]], dtype=str)})
         evaluation[split] = {"lines": len(rows[split]), **scores(labels[split], probabilities, list(SCRIBES))}
 
     checkpoint = {"model": best_state, "model_name": args.model, "scribes": list(SCRIBES),
-                  "input_view": INPUT_VIEW,
+                  "input_view": args.input_view,
                   "weights": weights.tolist(), "best_epoch": best_epoch}
     summary = {"model": args.model, "scribes": list(SCRIBES), "best_epoch": best_epoch,
-               "input_view": INPUT_VIEW,
+               "input_view": args.input_view,
                "train_lines_per_scribe": counts.tolist(), "weights": weights.tolist(),
                "history": history, **evaluation, "run": provenance(vars(args), ROOT)}
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -1,5 +1,7 @@
 # Nuremberg-9 model comparison
 
+[Model reports](nuremberg-9/report/01-models/) · [Four-model comparison](nuremberg-9/report/02-model-comparison/) · [ResNet18 vs CHURRO across five seeds](nuremberg-9/report/03-resnet18-vs-churro/) · [Writer samples](nuremberg-9/report/04-writer-lines/)
+
 Whole-line writer identification on Nuremberg Letterbooks with CHURRO, ResNet18, ResNet50 and Swin-Tiny. All four were evaluated on the same 7,636 test lines. The CHURRO visual encoder was frozen and only its classifier was trained. The three ImageNet-initialized baselines were fine-tuned on Nuremberg.
 
 ![Final Macro-F1 bar chart. ResNet18 leads with 91.23%.](reports/comparison/00-final-sonuc.png)

@@ -1,0 +1,71 @@
+{
+ "scribes": [
+  1,
+  2,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "summary": {
+  "blk16": {
+   "best_epoch": 26,
+   "val_balanced_accuracy": 0.8878981836894463,
+   "val_macro_f1": 0.8864701447048922,
+   "val_accuracy": 0.9627394384675938,
+   "test_balanced_accuracy": 0.900861054339767,
+   "test_macro_f1": 0.8929282015798994,
+   "test_accuracy": 0.9570455735987428
+  }
+ },
+ "band_shortcut_baseline": {
+  "val": {
+   "line_accuracy": 0.5911,
+   "balanced_accuracy": 0.2353
+  },
+  "test": {
+   "line_accuracy": 0.5449,
+   "balanced_accuracy": 0.2136
+  },
+  "band_majority_scribe": {
+   "Band2": 1,
+   "Band3": 7,
+   "Band4": 9,
+   "Band5": 9
+  }
+ },
+ "dropped_nonfinite_lines": {
+  "train": 0,
+  "val": 0,
+  "test": 0
+ },
+ "run": {
+  "git_commit": "f1d7a9b3d36a91aaf21e50d6286f3f4de6bcd1f2",
+  "git_dirty": true,
+  "timestamp": "2026-11-02T12:02:21+00:00",
+  "config": {
+   "features": "features/churro_v1",
+   "extra_features": "features/churro_v2_new",
+   "aug_features": "features/churro_v2_aug",
+   "split_json": "nuremberg-9/docs/split_v2_9scribes.json",
+   "out": "nuremberg-9/experiments/02_augmentation/results/seeds/aug_s46",
+   "layers": [
+    "blk16"
+   ],
+   "weights": "effective",
+   "beta": 0.999,
+   "oversample": "sqrt",
+   "epochs": 200,
+   "batch": 512,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "lr_patience": 3,
+   "stop_patience": 10,
+   "seed": 46,
+   "device": "cpu"
+  }
+ }
+}

@@ -187,7 +187,8 @@ def run_layer(layer, data, scribes, args, out_dir: Path) -> dict:
     np.savez(out_dir / f"{layer}_head.npz", W=model.weight.detach().cpu().numpy(),
              b=model.bias.detach().cpu().numpy(), mean=mean.numpy(), std=std.numpy())
 
-    fig, ax = plt.subplots(1, 2, figsize=(10, 3.5))
+    fig, ax = plt.subplots(1, 2, figsize=(10, 4))
+    fig.suptitle(f"CHURRO-3B · Balanced Probe training · Whole lines · {layer}")
     ax[0].plot(history["train_loss"], label="train")
     ax[0].plot(history["val_loss"], label="val")
     ax[0].axvline(best["epoch"] - 1, color="grey", ls=":")
@@ -202,9 +203,9 @@ def run_layer(layer, data, scribes, args, out_dir: Path) -> dict:
     plt.close(fig)
     t = result["test"]
     plot_recall(t["recall_per_scribe"], t["support"], scribes, out_dir / f"{layer}_recall.png",
-                f"{layer}: test recall per scribe (balanced accuracy {t['balanced_accuracy']:.3f})")
+                f"CHURRO-3B · Whole-line recall by writer · {layer} (balanced accuracy {t['balanced_accuracy']:.3f})")
     plot_confusion(t["confusion_matrix"], scribes, out_dir / f"{layer}_confusion.png",
-                   f"{layer}: test confusion matrix")
+                   f"CHURRO-3B · Whole-line test confusion matrix · {layer}")
     with open(out_dir / f"{layer}_metrics.json", "w", encoding="utf-8") as fh:
         json.dump(result, fh, indent=1)
     return result

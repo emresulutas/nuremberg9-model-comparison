@@ -1,0 +1,21 @@
+S11: 92 lines -> train 64, val 14, test 14
+S12: 45 lines -> train 31, val 7, test 7
+
+=== lines ===
+scribe |      train      |       val       |      test      
+       |   lines   pages |   lines   pages |   lines   pages
+     1 |   12600     558 |    2709     114 |    2711     116
+     2 |    1400      81 |     302      16 |     306      19
+     6 |    1062      78 |     236      19 |     235      15
+     7 |    6591     294 |    1422      66 |    1440      63
+     8 |    1273      67 |     286      15 |     289      15
+     9 |   12140     503 |    2610     106 |    2602     108
+    10 |      96       7 |      36       2 |      32       3
+    11 |      64       5 |      14       5 |      14       4
+    12 |      31       3 |       7       3 |       7       3
+EMPTY CELLS (scribe missing from a split): none
+THIN val/test cells (< 30 lines): [('val', 11, 14), ('val', 12, 7), ('test', 11, 14), ('test', 12, 7)]
+band shortcut val: line accuracy 0.591   balanced accuracy 0.235
+band shortcut test: line accuracy 0.545   balanced accuracy 0.214
+main scribe per band in train: {'Band2': 1, 'Band3': 7, 'Band4': 9, 'Band5': 9}
+wrote nuremberg-9/docs/split_v2_9scribes.json
